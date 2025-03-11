@@ -2,8 +2,8 @@ import os
 import numpy as np
 
 def main():
-    workdir = '/project/logsdon_shared/projects/HGSVC3/CenMAP_verkko_run6/SG_downstream_analysis/annotation/verkko/moddotplot'
-    outfile = '/project/logsdon_shared/projects/HGSVC3/CenMAP_verkko_run6/SG_downstream_analysis/annotation/verkko/1DModplot.bed'
+    workdir = './moddotplot' # contain all moddotplot bed files 
+    outfile = '1DModplot.bed' # output
 
     
     files = os.listdir(workdir)
